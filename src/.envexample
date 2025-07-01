@@ -1,0 +1,4 @@
+DEBUG = False
+LOG_LEVEL = INFO
+DATABASE_ECHO = False
+ZONE_INFO = Asia/Jakarta
