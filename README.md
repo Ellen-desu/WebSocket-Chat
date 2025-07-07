@@ -1,15 +1,24 @@
-# Quickstart
-## Installation
-Use this command to install dependecies
+# 💬 WebSocket Chat
+Real time chat dengan websocket dan framework Starlette.
+
+
+## Quickstart
+### Klon repositori ini
+```
+git clone https://github.com/Ellen-desu/WebSocket-Chat
+```
+
+### Instal dependensi
 ```
 pip install -r requirements.txt
 ```
 
-## Run it
-Run the server
+### Jalanin server
 ```
 uvicorn main:app
 ```
 
-## Tes it
-You can test the websocket in ws://127.0.0.1:8000/ws/chat route.
+## Tes soket
+URI websocket adalah sebagai berikut:
+
+[ws://127.0.0.1:8000/ws/chat](ws://127.0.0.1:8000/ws/chat)
